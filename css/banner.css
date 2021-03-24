@@ -1,0 +1,58 @@
+.banner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.banner {
+  width: 660px;
+  height: 184px;
+  padding: 50px 0 0 70px;
+  border-radius: 10px;
+}
+.banner:nth-child(1) {
+  background: linear-gradient(94.34deg, #ff4e54 0.25%, #ff426f 100%);
+}
+.banner:nth-child(2) {
+  background: linear-gradient(94.49deg, #61b1fb 0%, #47deff 100%);
+}
+.banner-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.banner-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+}
+.banner-dish,
+.banner-phome {
+  position: relative;
+}
+.banner-dish::before,
+.banner-phome::before {
+  position: absolute;
+  content: "";
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.banner-phome::before {
+  right: 70px;
+  bottom: 0;
+  width: 220px;
+  height: 153px;
+  background-image: url(../img/banner/phone.png);
+}
+
+.banner-dish::before {
+    right: 90px;
+    bottom: 0;
+    width: 186px;
+    height: 184px;
+    background-image: url(../img/banner/img.png);
+}

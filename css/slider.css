@@ -1,0 +1,34 @@
+.slider {
+    margin-bottom: 70px;
+}
+.swiper-wrapper {
+  padding-top: 60px;
+}
+.swiper-slide {
+  padding: 20px 0;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 0;
+  width: 30px !important;
+  height: 30px !important;
+  margin-top: 0;
+  background-image: url(../img/slider/arow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.swiper-button-next {
+  right: 0;
+  transform: rotate(180deg);
+}
+.swiper-button-prev {
+  right: 40px;
+  left: auto;
+  transform: rotate(0);
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 0;
+}

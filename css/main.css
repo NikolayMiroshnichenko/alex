@@ -1,0 +1,101 @@
+.main-wrapper {
+  width: 100%;
+  background-image: url(../img/main/bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 0%;
+  margin-bottom: 80px;
+}
+.main {
+  position: relative;
+  padding: 60px 0 60px 0;
+}
+.main-content {
+  width: 50%;
+}
+.main-content__top-text {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 250px;
+  color: #656565;
+}
+.main-content__title {
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.main-content__title span {
+  font-weight: 800;
+}
+.main-btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.main-btn__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.main-btn__item:last-child {
+  margin-right: 0;
+}
+.main-btn__item:nth-child(1) {
+  background: linear-gradient(180deg, #2baf38 0%, rgba(43, 175, 56, 1) 100%);
+  box-shadow: 0px 2px 0px #279b33, 0px 0px 13px rgba(43, 175, 56, 0.5);
+  border-radius: 10px;
+}
+.main-btn__item:nth-child(2) {
+  background: linear-gradient(180deg, #fd9800 0%, #faa72a 100%);
+  box-shadow: 0px 2px 0px #eb9e2a, 0px 0px 13px rgba(251, 152, 3, 0.5);
+  border-radius: 10px;
+}
+.main-btn__icon {
+  display: block;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.main-btn__icon.phone {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/main/marker.svg);
+}
+.main-btn__icon.call {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/main/phone.svg);
+}
+.main-info h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.main-info p {
+  font-size: 20px;
+  color: #656565;
+}
+/* main-img */
+.main-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(20%, -10%);
+  width: 75%;
+}
+.main-img img {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Project</title>
+    <meta content="Project description" name="description" />
+    <meta content="Project description" property="og:description" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="main-wrapper">
+      <div class="header-wrapper">
+        <header class="header container">
+          <div class="logo">
+            <a href="index.html" class="logo-link">
+              U sióstr
+              <img src="img/logo.svg" alt="" />
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="#" class="header-btn">Request a call</a>
+              </li>
+              <li class="nav-list__item">
+                <p class="menu-btn-text">Navigation</p>
+                <div class="menu-btn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="main container">
+          <div class="main-content">
+            <p class="main-content__top-text">
+              Come, it will be very delicious
+            </p>
+            <h1 class="main-content__title">
+              Restauracja ukraińskiej <br />
+              kuchni <span>«U sióstr»</span>
+            </h1>
+            <div class="main-img">
+              <img src="img/main/main-pizza.svg" alt="" />
+            </div>
+            <div class="main-btn">
+              <a href="#" class="main-btn__item">
+                <i class="main-btn__icon call"></i>
+                To call
+              </a>
+              <a href="#" class="main-btn__item">
+                <i class="main-btn__icon phone"></i>
+                To Come
+              </a>
+            </div>
+            <div class="main-info">
+              <h2>we are located</h2>
+              <p>ul. Złota, 63A, 00-819</p>
+              <p>Warszawa, 00-819 Polska</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ourMenu container">
+      <h2 class="ourMenu-title">Our Menu</h2>
+      <p class="ourMenu-text">or your reference</p>
+      <div class="slider">
+        <div class="swiper-container">
+          <!--slider wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides 1 -->
+            <div class="swiper-slide">
+              <div class="product-v1">
+                <img
+                  src="img/products/hot-meals.png"
+                  class="product-v1__img"
+                  alt=""
+                />
+                <h3 class="product-v1__title">Hot meals</h3>
+              </div>
+            </div>
+            <!-- Slides 2 -->
+            <div class="swiper-slide">
+              <div class="product-v1">
+                <img
+                  src="img/products/main-dishes-img.png"
+                  class="product-v1__img"
+                  alt=""
+                />
+                <h3 class="product-v1__title">Main dishes</h3>
+              </div>
+            </div>
+            <!-- Slides 3 -->
+            <div class="swiper-slide">
+              <div class="product-v1">
+                <img
+                  src="img/products/snacks-img.png"
+                  class="product-v1__img"
+                  alt=""
+                />
+                <h3 class="product-v1__title">Snacks</h3>
+              </div>
+            </div>
+            <!-- end slides -->
+          </div>
+          <!--navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper-container">
+          <!--slider wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides 1 -->
+            <div class="swiper-slide">
+              <div class="product-v2">
+                <img
+                  src="img/products/main-dishes-icon.png"
+                  class="product-v2__img"
+                  alt=""
+                />
+                <h3 class="product-v2__title">Main dishes</h3>
+              </div>
+            </div>
+            <!-- Slides 2 -->
+            <div class="swiper-slide">
+              <div class="product-v2">
+                <img
+                  src="img/products/snacks-icon.png"
+                  class="product-v2__img"
+                  alt=""
+                />
+                <h3 class="product-v2__title">Snacks</h3>
+              </div>
+            </div>
+            <!-- Slides 3 -->
+            <div class="swiper-slide">
+              <div class="product-v2">
+                <img
+                  src="img/products/desserts-icon.png"
+                  class="product-v2__img"
+                  alt=""
+                />
+                <h3 class="product-v2__title">Desserts</h3>
+              </div>
+            </div>
+            <!-- Slides 4 -->
+            <div class="swiper-slide">
+              <div class="product-v2">
+                <img
+                  src="img/products/drinks.png"
+                  class="product-v2__img"
+                  alt=""
+                />
+                <h3 class="product-v2__title">Drinks</h3>
+              </div>
+            </div>
+            <!-- end slides -->
+          </div>
+          <!--navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="products-wrapper container">
+      <h2 class="products-title">Desserts</h2>
+      <div class="products-nav">
+        <span class="products-nav__title">Menu Sections:</span>
+        <div class="products-nav-link">
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-desserts"
+              ></use>
+            </svg>
+            Desserts
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-hot-meals"
+              ></use>
+            </svg>
+            Hot meals
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-main-dishes"
+              ></use>
+            </svg>
+            Main dishes
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-snacks"
+              ></use>
+            </svg>
+            Snacks
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-drink"
+              ></use>
+            </svg>
+            Drink
+          </a>
+        </div>
+      </div>
+      <div class="product-info">
+        <div class="product-info__item">
+          <div class="product-info__name">Name</div>
+          <div class="product-info__weight">Weight</div>
+          <div class="product-info__price">Price</div>
+        </div>
+        <div class="product-info__item">
+          <div class="product-info__name">Name</div>
+          <div class="product-info__weight">Weight</div>
+          <div class="product-info__price">Price</div>
+        </div>
+      </div>
+      <ul class="product-list">
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">20 min</span>
+              <span class="product-list__time">20 min</span>
+            </div>
+
+            <h3 class="product-list__title">Pancakes</h3>
+            <p class="product-list__descriptions">
+              Ice cream / berries / honey / condensed milk
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__icon leaf"></div>
+              <div class="product-list__calc">618 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>270g</p>
+          </div>
+          <div class="product-list__price">
+            <p>263 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">20 min</span>
+              <span class="product-list__time">20 min</span>
+            </div>
+
+            <h3 class="product-list__title">Pancakes</h3>
+            <p class="product-list__descriptions">
+              Ice cream / berries / honey / condensed milk
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__icon leaf"></div>
+              <div class="product-list__calc">618 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>270g</p>
+          </div>
+          <div class="product-list__price">
+            <p>263 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cupcake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time">20 min</span>
+              <span class="product-list__time active">New</span>
+            </div>
+
+            <h3 class="product-list__title">
+              Makaron po ukraińsku z krewetkami i szynką
+            </h3>
+            <p class="product-list__descriptions">
+              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
+              pomidorem i serem
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">900 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>370g</p>
+          </div>
+          <div class="product-list__price">
+            <p>123.50 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cupcake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time">20 min</span>
+              <span class="product-list__time active">New</span>
+            </div>
+
+            <h3 class="product-list__title">
+              Makaron po ukraińsku z krewetkami i szynką
+            </h3>
+            <p class="product-list__descriptions">
+              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
+              pomidorem i serem
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">900 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>370g</p>
+          </div>
+          <div class="product-list__price">
+            <p>123.50 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">30 min</span>
+              <span class="product-list__time">900 cal</span>
+            </div>
+
+            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
+            <p class="product-list__descriptions">
+              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
+              szparagami
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__symbol">B</div>
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">485 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>450g</p>
+          </div>
+          <div class="product-list__price">
+            <p>51 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">30 min</span>
+              <span class="product-list__time">900 cal</span>
+            </div>
+
+            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
+            <p class="product-list__descriptions">
+              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
+              szparagami
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__symbol">B</div>
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">485 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>450g</p>
+          </div>
+          <div class="product-list__price">
+            <p>51 zł</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="banner-wrapper container">
+      <div class="banner banner-phome">
+        <h2 class="banner-title">Skanuj QR</h2>
+        <p class="banner-text">I uzyskaj smaczną zniżkę</p>
+      </div>
+      <div class="banner banner-dish">
+        <h2 class="banner-title">Zamów już od 70 zł</h2>
+        <p class="banner-text">
+          i otrzymaj pyszne <br />
+          serniki w PREZENCIE
+        </p>
+      </div>
+    </section>
+    <section class="products-wrapper container">
+      <h2 class="products-title">Desserts</h2>
+      <div class="products-nav">
+        <span class="products-nav__title">Menu Sections:</span>
+        <div class="products-nav-link">
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-desserts"
+              ></use>
+            </svg>
+            Desserts
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-hot-meals"
+              ></use>
+            </svg>
+            Hot meals
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-main-dishes"
+              ></use>
+            </svg>
+            Main dishes
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-snacks"
+              ></use>
+            </svg>
+            Snacks
+          </a>
+          <a href="#" class="products-nav-link__item">
+            <svg class="products-nav-link__icons">
+              <use
+                xlink:href="img/products/nav-icons/symbol-defs.svg#icon-drink"
+              ></use>
+            </svg>
+            Drink
+          </a>
+        </div>
+      </div>
+      <div class="product-info">
+        <div class="product-info__item">
+          <div class="product-info__name">Name</div>
+          <div class="product-info__weight">Weight</div>
+          <div class="product-info__price">Price</div>
+        </div>
+        <div class="product-info__item">
+          <div class="product-info__name">Name</div>
+          <div class="product-info__weight">Weight</div>
+          <div class="product-info__price">Price</div>
+        </div>
+      </div>
+      <ul class="product-list">
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">20 min</span>
+              <span class="product-list__time">20 min</span>
+            </div>
+
+            <h3 class="product-list__title">Pancakes</h3>
+            <p class="product-list__descriptions">
+              Ice cream / berries / honey / condensed milk
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__icon leaf"></div>
+              <div class="product-list__calc">618 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>270g</p>
+          </div>
+          <div class="product-list__price">
+            <p>263 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">20 min</span>
+              <span class="product-list__time">20 min</span>
+            </div>
+
+            <h3 class="product-list__title">Pancakes</h3>
+            <p class="product-list__descriptions">
+              Ice cream / berries / honey / condensed milk
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__icon leaf"></div>
+              <div class="product-list__calc">618 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>270g</p>
+          </div>
+          <div class="product-list__price">
+            <p>263 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cupcake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time">20 min</span>
+              <span class="product-list__time active">New</span>
+            </div>
+
+            <h3 class="product-list__title">
+              Makaron po ukraińsku z krewetkami i szynką
+            </h3>
+            <p class="product-list__descriptions">
+              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
+              pomidorem i serem
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">900 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>370g</p>
+          </div>
+          <div class="product-list__price">
+            <p>123.50 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cupcake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time">20 min</span>
+              <span class="product-list__time active">New</span>
+            </div>
+
+            <h3 class="product-list__title">
+              Makaron po ukraińsku z krewetkami i szynką
+            </h3>
+            <p class="product-list__descriptions">
+              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
+              pomidorem i serem
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">900 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>370g</p>
+          </div>
+          <div class="product-list__price">
+            <p>123.50 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">30 min</span>
+              <span class="product-list__time">900 cal</span>
+            </div>
+
+            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
+            <p class="product-list__descriptions">
+              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
+              szparagami
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__symbol">B</div>
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">485 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>450g</p>
+          </div>
+          <div class="product-list__price">
+            <p>51 zł</p>
+          </div>
+        </li>
+        <li class="product-list__item">
+          <div class="product-list__img">
+            <img src="img/products/list-icons/cake.png" alt="" />
+          </div>
+          <div class="product-list__content">
+            <div class="product-list__top">
+              <span class="product-list__time active">30 min</span>
+              <span class="product-list__time">900 cal</span>
+            </div>
+
+            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
+            <p class="product-list__descriptions">
+              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
+              szparagami
+            </p>
+            <div class="product-list__icons">
+              <div class="product-list__symbol">A</div>
+              <div class="product-list__symbol">B</div>
+              <div class="product-list__icon chili"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__icon chili-black"></div>
+              <div class="product-list__calc">485 cal</div>
+            </div>
+          </div>
+          <div class="product-list__weight">
+            <p>450g</p>
+          </div>
+          <div class="product-list__price">
+            <p>51 zł</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer-v1-wrapper">
+      <div class="footer-v1-top__wrapper">
+        <div class="footer-v1-top container">
+          <div class="footer-v1-logo">
+            <h2>U sióstr</h2>
+            <p>
+              Feel the taste of Ukrainian <br />
+              cuisine in the center of Warsaw
+            </p>
+          </div>
+          <div class="footer-v1-info">
+            <div class="footer-v1-info__item">
+              <h3>the address</h3>
+              <p>
+                ul. Złota, 63A, 00-819<br />
+                Warszawa/00-819
+              </p>
+            </div>
+            <div class="footer-v1-info__item">
+              <h3>contacts</h3>
+              <a href="#">+4 (888) 876-94-23</a>
+              <a href="#">usiostr@gmail.com</a>
+            </div>
+            <div class="footer-v1-info__item right">
+              <h3>
+                we are in social <br />
+                networks
+              </h3>
+              <div class="footer-v1-social">
+                <a href="#" class="footer-v1-social__link">
+                  <svg>
+                    <use xlink:href="img/footer-icons.svg#facebook"></use>
+                  </svg>
+                  facebook
+                </a>
+                <a href="#" class="footer-v1-social__link">
+                  <svg>
+                    <use xlink:href="img/footer-icons.svg#twitter"></use>
+                  </svg>
+                  twitter
+                </a>
+                <a href="#" class="footer-v1-social__link">
+                  <svg>
+                    <use xlink:href="img/footer-icons.svg#google"></use>
+                  </svg>
+                  google
+                </a>
+                <a href="#" class="footer-v1-social__link">
+                  <svg>
+                    <use xlink:href="img/footer-icons.svg#instagram"></use>
+                  </svg>
+                  instagram
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-v1-bottom__wrapper">
+        <div class="footer-v1-bottom container">
+          <p class="footer-v1-bottom__text">
+            ©2015 Usiostrs. All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <footer class="footer-v2-wrapper">
+      <div class="footer-v2-top container">
+        <div class="footer-v2-logo">
+          <h2>U sióstr</h2>
+          <p>
+            Feel the taste of Ukrainian <br />
+            cuisine in the center of Warsaw
+          </p>
+        </div>
+        <div class="footer-v2-list">
+          <div class="footer-v2-list__item">
+            <h2>contacts</h2>
+            <a href="#">+4 (888) 876-94-23</a>
+            <a href="#">usiostr@gmail.com</a>
+          </div>
+          <div class="footer-v2-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.737422465179!2d20.99656831579663!3d52.22998817976028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8de346b609%3A0x28ba6203a3a0b0e4!2zWsWCb3RhIDYzQSwgMDAtODE5IFdhcnN6YXdhLCDQn9C-0LvRjNGJ0LA!5e0!3m2!1suk!2sua!4v1616489796324!5m2!1suk!2sua"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="footer-v2-list__item">
+            <h2>the address</h2>
+            <p>
+              ul. Złota, 63A, 00-819<br />
+              Warszawa/00-819
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-v2-bottom container">
+        <div class="footer-v2-bottom__content">
+          <div class="footer-v2-bottom__text">
+            <span>Privacy policy</span>
+            <span>This website uses cookies</span>
+          </div>
+          <div class="footer-v2-social">
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#facebook"></use>
+              </svg>
+              facebook
+            </a>
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#twitter"></use>
+              </svg>
+              twitter
+            </a>
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#google"></use>
+              </svg>
+              google
+            </a>
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#instagram"></use>
+              </svg>
+              instagram
+            </a>
+          </div>
+        </div>
+        <div class="footer-v2-bottom__info">
+          <p>©2015 Usiostrs. All rights reserved</p>
+        </div>
+        <div></div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/header.js"></script>
+  </body>
+</html>
