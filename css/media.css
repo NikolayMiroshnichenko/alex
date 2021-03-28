@@ -220,13 +220,35 @@
 @media (max-width: 767px) {
   .container {
     width: 100%;
+    max-width: 480px;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .header-wrapper.sticky .header {
+    padding: 10px 30px;
   }
   .main,
   .header {
+    position: relative;
     padding: 30px;
+    z-index: 1;
   }
   .main-wrapper {
     margin-bottom: 40px;
+  }
+  .mobill-bg {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 140px;
+    height: 450px;
+    background-image: url(../img/main/mobill-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 0;
+    border-radius: 10px;
+    z-index: 0;
   }
   .menu-btn-text {
     display: none;
@@ -333,10 +355,10 @@
     right: 30px;
   }
   .product-list__weight {
-    top: 57%
+    top: 57%;
   }
   .product-list__price {
-    top: 43%
+    top: 43%;
   }
   .product-list__price p {
     font-size: 20px;
@@ -345,10 +367,10 @@
   .product-list__weight p {
     font-size: 14px;
   }
-  .banner-wrapper  {
+  .banner-wrapper {
     padding: 0 30px;
   }
-  .banner  {
+  .banner {
     width: 100%;
     padding: 30px 30px 260px 30px;
   }
@@ -375,7 +397,7 @@
   .footer-v2-logo {
     padding: 0 30px;
   }
-  .footer-v2-bottom  {
+  .footer-v2-bottom {
     padding: 0 30px;
     flex-direction: column;
     align-items: flex-start;

@@ -33,7 +33,7 @@
               <li class="nav-list__item">
                 <a href="#" class="header-btn">Request a call</a>
               </li>
-              <li class="nav-list__item">
+              <li class="nav-list__item open-menu-btn js-open-menu">
                 <p class="menu-btn-text">Navigation</p>
                 <div class="menu-btn">
                   <span></span>
@@ -44,36 +44,35 @@
             </ul>
           </nav>
         </header>
-        <div class="main container">
-          <div class="main-content">
-            <p class="main-content__top-text">
-              Come, it will be very delicious
-            </p>
-            <h1 class="main-content__title">
-              Restauracja ukraińskiej <br />
-              kuchni <span>«U sióstr»</span>
-            </h1>
-            <div class="main-img">
-              <img src="img/main/main-pizza.svg" alt="" />
-            </div>
-            <div class="main-btn">
-              <a href="#" class="main-btn__item">
-                <i class="main-btn__icon call"></i>
-                To call
-              </a>
-              <a href="#" class="main-btn__item">
-                <i class="main-btn__icon phone"></i>
-                To Come
-              </a>
-            </div>
-            <div class="main-info">
-              <h2>we are located</h2>
-              <p>ul. Złota, 63A, 00-819</p>
-              <p>Warszawa, 00-819 Polska</p>
-            </div>
+      </div>
+      <div class="main container">
+        <div class="main-content">
+          <p class="main-content__top-text">Come, it will be very delicious</p>
+          <h1 class="main-content__title">
+            Restauracja ukraińskiej <br />
+            kuchni <span>«U sióstr»</span>
+          </h1>
+          <div class="main-img">
+            <img src="img/main/main-pizza.svg" alt="" />
+          </div>
+          <div class="main-btn">
+            <a href="#" class="main-btn__item">
+              <i class="main-btn__icon call"></i>
+              To call
+            </a>
+            <a href="#" class="main-btn__item">
+              <i class="main-btn__icon phone"></i>
+              To Come
+            </a>
+          </div>
+          <div class="main-info">
+            <h2>we are located</h2>
+            <p>ul. Złota, 63A, 00-819</p>
+            <p>Warszawa, 00-819 Polska</p>
           </div>
         </div>
       </div>
+      <div class="mobill-bg"></div>
     </section>
     <section class="ourMenu container">
       <h2 class="ourMenu-title">Our Menu</h2>
@@ -809,8 +808,74 @@
       </div>
     </footer>
 
+    <div class="navigation-wrapper js-navigation-wrapper" data-close="close">
+      <div class="navigation">
+        <div class="navigation-close" data-close="close"></div>
+        <ul class="navigation-list">
+          <li class="navigation-list__item">
+            <a href="#">Desserts</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#">HOt meals</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#">Desserts</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#">HOt meals</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#">Desserts</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#">HOt meals</a>
+          </li>
+        </ul>
+        <div class="navigation-button">
+          <div class="navigation-button__btn">
+            <a href="#" class="main-btn__item">
+              <i class="main-btn__icon call"></i>
+              To call
+            </a>
+            <a href="#" class="main-btn__item">
+              <i class="main-btn__icon phone"></i>
+              To Come
+            </a>
+          </div>
+          <div class="navigation-button__social">
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#facebook"></use>
+              </svg>
+              facebook
+            </a>
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#twitter"></use>
+              </svg>
+              twitter
+            </a>
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#google"></use>
+              </svg>
+              google
+            </a>
+            <a href="#" class="footer-v2-social__link">
+              <svg>
+                <use xlink:href="img/footer-icons.svg#instagram"></use>
+              </svg>
+              instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jqvery.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/navigation.js"></script>
   </body>
 </html>

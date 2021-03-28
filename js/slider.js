@@ -1,6 +1,6 @@
 var swiper = new Swiper(".swiper-container", {
   spaceBetween: 40,
-  // centeredSlides: true,
+  centeredSlides: true,
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",

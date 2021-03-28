@@ -1,5 +1,21 @@
 .header-wrapper {
   width: 100%;
+  transition: all 0.3s;
+}
+
+.header-wrapper.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 98;
+  border-bottom: 2px solid #fd9800;
+}
+.header-wrapper.sticky .header {
+  padding: 10px 0;
+}
+.header-wrapper.sticky .header .logo-link {
+  width: 100px;
 }
 .header {
   display: flex;
@@ -55,4 +71,7 @@
 }
 .menu-btn span:last-child {
     margin-bottom: 0;
+}
+.open-menu-btn {
+  cursor: pointer;
 }
