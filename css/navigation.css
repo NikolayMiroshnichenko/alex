@@ -72,3 +72,8 @@
 .navigation-close:hover {
     transform: scale(1.1);
 }
+.navigation-select {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}

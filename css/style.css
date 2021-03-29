@@ -1,3 +1,4 @@
+@import "./nice-select.css";
 @import "./base.css";
 @import "./header.css";
 @import "./main.css";
@@ -8,3 +9,16 @@
 @import "./footer.css";
 @import "./navigation.css";
 @import "./media.css";
+
+
+
+
+.select-currency .nice-select {
+    border: none;
+    color: #000000;
+    font-weight: bold;
+}
+.select-currency .nice-select:after {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
