@@ -173,13 +173,13 @@
   margin-right: 8px;
 }
 .product-list__icon.leaf {
-  background-image: url(../img/products/list-icons/leaf.png);
+  background-image: url(../img/products/list-icons/leaf.svg);
 }
 .product-list__icon.chili {
-  background-image: url(../img/products/list-icons/chili-pepper.png);
+  background-image: url(../img/products/list-icons/chili-pepper.svg);
 }
 .product-list__icon.chili-black {
-  background-image: url(../img/products/list-icons/chili-pepper-black.png);
+  background-image: url(../img/products/list-icons/chili-pepper-black.svg);
 }
 .product-list__calc {
   font-size: 14px;
