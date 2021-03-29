@@ -20,7 +20,6 @@
   background-position: center;
 }
 .swiper-button-next {
-  right: 0;
   transform: rotate(180deg);
 }
 .swiper-button-prev {
