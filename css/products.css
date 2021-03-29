@@ -1,5 +1,5 @@
 .products-wrapper {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .products-title {
   font-size: 30px;
@@ -29,7 +29,20 @@
 .products-nav-link__icons {
   width: 17px;
   height: 17px;
+  fill: #8e8e8e;
   margin-right: 6px;
+}
+.products-nav-link__item:hover {
+  color: #ff5151;
+}
+.products-nav-link__item:hover > .products-nav-link__icons {
+  fill: #ff5151;
+}
+.products-nav-link__item.active {
+  color: #ff5151;
+}
+.products-nav-link__item.active > .products-nav-link__icons {
+  fill: #ff5151;
 }
 .product-info {
   display: flex;
@@ -68,6 +81,19 @@
   align-items: center;
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+.product-list__item.active-orange {
+  background: rgba(253, 201, 16, 0.08);
+  border: 1px solid #fcaa30;
+  border-radius: 15px;
+  padding-right: 8px;
+}
+.product-list__item.active-green {
+  background: rgba(66, 159, 71, 0.15);
+  border: 1px solid #23932e;
+  border-radius: 15px;
+  padding-right: 8px;
 }
 .product-list__img {
   width: 70px;
@@ -76,6 +102,7 @@
 .product-list__img img {
   display: block;
   max-width: 70px;
+  margin: 0 auto;
 }
 .product-list__content {
   width: 410px;
@@ -149,13 +176,13 @@
   background-image: url(../img/products/list-icons/leaf.png);
 }
 .product-list__icon.chili {
-    background-image: url(../img/products/list-icons/chili-pepper.png);
+  background-image: url(../img/products/list-icons/chili-pepper.png);
 }
 .product-list__icon.chili-black {
-    background-image: url(../img/products/list-icons/chili-pepper-black.png);
+  background-image: url(../img/products/list-icons/chili-pepper-black.png);
 }
 .product-list__calc {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
 }

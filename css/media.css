@@ -318,25 +318,86 @@
   .swiper-wrapper {
     padding-top: 40px;
   }
-  .product-info,
-  .products-nav-link {
+  .product-info {
     display: none;
   }
   .products-nav,
   .products-title {
     padding: 0 30px;
   }
+  .products-nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
+  .products-nav__title {
+    position: relative;
+    transform: translateY(-52px);
+    background-color: #f2f2f2;
+    padding: 12px 24px 12px 12px;
+    margin-right: 0;
+    border-radius: 4px;
+  }
+  .products-nav__title::before {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    content: "";
+    display: block;
+    height: 5px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px;
+  }
+  .products-nav-link {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 140px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    z-index: 97;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .products-nav-link__item {
+    margin-right: 0;
+    margin-bottom: 14px;
+  }
+  .products-nav-link__item:last-child {
+    margin-bottom: 20px;
+  }
   .product-list__item {
     position: relative;
     width: 100%;
     padding: 20px 30px;
   }
+  .product-list__item.active-orange,
+  .product-list__item.active-green {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    padding-right: 0;
+  }
   .product-list__img {
     width: 8%;
   }
   .product-list__content {
-    min-width: 55%;
-    max-width: 55%;
+    min-width: 50%;
+    max-width: 50%;
   }
   .product-list__title {
     font-size: 14px;
@@ -406,6 +467,19 @@
     width: 100%;
   }
   .footer-v2-bottom__info p {
-    text-align: center;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .footer-v1-bottom__wrapper .footer-select {
+    position: static;
+    transform: translateY(0);
+  }
+  .footer-v1-bottom {
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .footer-v1-bottom__text {
+    text-align: left;
+    margin-bottom: 20px;
   }
 }

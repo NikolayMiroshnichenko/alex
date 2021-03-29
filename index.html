@@ -178,9 +178,9 @@
     <section class="products-wrapper container">
       <h2 class="products-title">Desserts</h2>
       <div class="products-nav">
-        <span class="products-nav__title">Menu Sections:</span>
+        <span class="products-nav__title accordion">Menu Sections:</span>
         <div class="products-nav-link">
-          <a href="#" class="products-nav-link__item">
+          <a href="#" class="products-nav-link__item active">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-desserts"
@@ -320,7 +320,7 @@
             <p>123.50 zł</p>
           </div>
         </li>
-        <li class="product-list__item">
+        <li class="product-list__item active-orange">
           <div class="product-list__img">
             <img src="img/products/list-icons/cupcake.png" alt="" />
           </div>
@@ -431,7 +431,7 @@
     <section class="products-wrapper container">
       <h2 class="products-title">Desserts</h2>
       <div class="products-nav">
-        <span class="products-nav__title">Menu Sections:</span>
+        <span class="products-nav__title js-toggle-product">Menu Sections:</span>
         <div class="products-nav-link">
           <a href="#" class="products-nav-link__item">
             <svg class="products-nav-link__icons">
@@ -573,7 +573,7 @@
             <p>123.50 zł</p>
           </div>
         </li>
-        <li class="product-list__item">
+        <li class="product-list__item active-green">
           <div class="product-list__img">
             <img src="img/products/list-icons/cupcake.png" alt="" />
           </div>
@@ -820,7 +820,22 @@
         <div class="footer-v2-bottom__info">
           <p>©2015 Usiostrs. All rights reserved</p>
         </div>
-        <div></div>
+        <div class="footer-select">
+          <div class="select-language">
+            <select>
+              <option value="Polish">Polish</option>
+              <option value="Ukrainian">Ukrainian</option>
+              <option value="English">English</option>
+            </select>
+          </div>
+          <div class="select-currency">
+            <select>
+              <option value="zł">zł</option>
+              <option value="grn">grn</option>
+              <option value="$">$</option>
+            </select>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -914,5 +929,6 @@
     <script src="js/slider.js"></script>
     <script src="js/header.js"></script>
     <script src="js/navigation.js"></script>
+    <script src="js/product-nav.js"></script>
   </body>
 </html>
