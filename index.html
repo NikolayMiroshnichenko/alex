@@ -83,40 +83,40 @@
           <div class="swiper-wrapper">
             <!-- Slides 1 -->
             <div class="swiper-slide">
-              <div class="product-v1">
+              <a href="#hot-meals" class="product-v1 anchors">
                 <img
                   src="img/products/hot-meals.png"
                   class="product-v1__img"
                   alt=""
                 />
                 <h3 class="product-v1__title">Hot meals</h3>
-              </div>
+              </a>
             </div>
             <!-- Slides 2 -->
             <div class="swiper-slide">
-              <div class="product-v1">
+              <a href="#" class="product-v1 anchors">
                 <img
                   src="img/products/main-dishes-img.png"
                   class="product-v1__img"
                   alt=""
                 />
                 <h3 class="product-v1__title">Main dishes</h3>
-              </div>
+              </a>
             </div>
             <!-- Slides 3 -->
             <div class="swiper-slide">
-              <div class="product-v1">
+              <a href="#" class="product-v1 anchors">
                 <img
                   src="img/products/snacks-img.png"
                   class="product-v1__img"
                   alt=""
                 />
                 <h3 class="product-v1__title">Snacks</h3>
-              </div>
+              </a>
             </div>
             <!-- Slides 4 -->
             <div class="swiper-slide">
-              <div class="product-v1">
+              <a href="#desserts" class="product-v1 anchors">
                 <img
                   src="img/products/desserts-img.png"
                   class="product-v1__img"
@@ -124,7 +124,7 @@
                 />
                 <h3 class="product-v1__title">Desserts</h3>
               </div>
-            </div>
+            </a>
             <!-- end slides -->
           </div>
           <!--navigation buttons -->
@@ -136,47 +136,58 @@
           <div class="swiper-wrapper">
             <!-- Slides 1 -->
             <div class="swiper-slide">
-              <div class="product-v2">
+              <a href="#" class="product-v2 anchors">
                 <img
                   src="img/products/main-dishes-icon.svg"
                   class="product-v2__img"
                   alt=""
                 />
                 <h3 class="product-v2__title">Main dishes</h3>
-              </div>
+              </a>
             </div>
             <!-- Slides 2 -->
             <div class="swiper-slide">
-              <div class="product-v2">
+              <a href="#" class="product-v2 anchors">
                 <img
                   src="img/products/snacks-icon.svg"
                   class="product-v2__img"
                   alt=""
                 />
                 <h3 class="product-v2__title">Snacks</h3>
-              </div>
+              </a>
             </div>
             <!-- Slides 3 -->
             <div class="swiper-slide">
-              <div class="product-v2">
+              <a href="#desserts" class="product-v2 anchors">
                 <img
                   src="img/products/desserts-icon.svg"
                   class="product-v2__img"
                   alt=""
                 />
                 <h3 class="product-v2__title">Desserts</h3>
-              </div>
+              </a>
             </div>
             <!-- Slides 4 -->
             <div class="swiper-slide">
-              <div class="product-v2">
+              <a href="#" class="product-v2 anchors">
                 <img
                   src="img/products/drinks.svg"
                   class="product-v2__img"
                   alt=""
                 />
                 <h3 class="product-v2__title">Drinks</h3>
-              </div>
+              </a>
+            </div>
+             <!-- Slides 5 -->
+             <div class="swiper-slide">
+              <a href="#hot-meals" class="product-v2 anchors">
+                <img
+                  src="img/products/hot-meals-icon.svg"
+                  class="product-v2__img"
+                  alt=""
+                />
+                <h3 class="product-v2__title">Hot meals</h3>
+              </a>
             </div>
             <!-- end slides -->
           </div>
@@ -186,12 +197,12 @@
         </div>
       </div>
     </section>
-    <section class="products-wrapper container">
+    <section class="products-wrapper container" id="desserts">
       <h2 class="products-title">Desserts</h2>
       <div class="products-nav">
         <span class="products-nav__title accordion">Menu Sections:</span>
         <div class="products-nav-link">
-          <a href="#desserts" data-tab="desserts" class="products-nav-link__item active">
+          <a href="#desserts" class="products-nav-link__item active anchors">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-desserts"
@@ -199,7 +210,7 @@
             </svg>
             Desserts
           </a>
-          <a href="#hot-meals" data-tab="hot-meals" class="products-nav-link__item">
+          <a href="#hot-meals" class="products-nav-link__item anchors">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-hot-meals"
@@ -207,7 +218,7 @@
             </svg>
             Hot meals
           </a>
-          <a href="#main-dishes" data-tab="main-dishes" class="products-nav-link__item">
+          <a href="#main-dishes" class="products-nav-link__item">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-main-dishes"
@@ -215,7 +226,7 @@
             </svg>
             Main dishes
           </a>
-          <a href="#snacks" data-tab="snacks" class="products-nav-link__item">
+          <a href="#snacks" class="products-nav-link__item">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-snacks"
@@ -223,7 +234,7 @@
             </svg>
             Snacks
           </a>
-          <a href="#drink" data-tab="drink" class="products-nav-link__item">
+          <a href="#drink" class="products-nav-link__item">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-drink"
@@ -245,732 +256,7 @@
           <div class="product-info__price">Price</div>
         </div>
       </div>
-      <ul class="product-list active" id="desserts">
-        1
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-orange">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="hot-meals">
-        2
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-orange">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="main-dishes">
-        3
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-orange">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="snacks">
-        4
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-orange">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="drink">
-        5
+      <ul class="product-list">
         <li class="product-list__item">
           <div class="product-list__img">
             <img src="img/products/list-icons/cake.svg" alt="" />
@@ -1164,12 +450,12 @@
         </p>
       </div>
     </section>
-    <section class="products-wrapper container">
-      <h2 class="products-title">Desserts</h2>
+    <section class="products-wrapper container" id="hot-meals">
+      <h2 class="products-title">Hot meals</h2>
       <div class="products-nav">
         <span class="products-nav__title accordion">Menu Sections:</span>
         <div class="products-nav-link">
-          <a href="#desserts-second" data-tab-second="desserts-second" class="products-nav-link__item active">
+          <a href="#desserts" class="products-nav-link__item anchors">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-desserts"
@@ -1177,7 +463,7 @@
             </svg>
             Desserts
           </a>
-          <a href="#hot-meals-second" data-tab-second="hot-meals-second" class="products-nav-link__item">
+          <a href="#hot-meals" class="products-nav-link__item active anchors">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-hot-meals"
@@ -1185,7 +471,7 @@
             </svg>
             Hot meals
           </a>
-          <a href="#main-dishes-second" data-tab-second="main-dishes-second" class="products-nav-link__item">
+          <a href="#" class="products-nav-link__item">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-main-dishes"
@@ -1193,7 +479,7 @@
             </svg>
             Main dishes
           </a>
-          <a href="#snacks-second" data-tab-second="snacks-second" class="products-nav-link__item">
+          <a href="#" class="products-nav-link__item">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-snacks"
@@ -1201,7 +487,7 @@
             </svg>
             Snacks
           </a>
-          <a href="#drink-second" data-tab-second="drink-second" class="products-nav-link__item">
+          <a href="#" class="products-nav-link__item">
             <svg class="products-nav-link__icons">
               <use
                 xlink:href="img/products/nav-icons/symbol-defs.svg#icon-drink"
@@ -1223,727 +509,7 @@
           <div class="product-info__price">Price</div>
         </div>
       </div>
-      <ul class="product-list active" id="desserts-second">
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-green">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="hot-meals-second">
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-green">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="main-dishes-second">
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-green">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="snacks-second">
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">20 min</span>
-              <span class="product-list__time">20 min</span>
-            </div>
-
-            <h3 class="product-list__title">Pancakes</h3>
-            <p class="product-list__descriptions">
-              Ice cream / berries / honey / condensed milk
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__icon leaf"></div>
-              <div class="product-list__calc">618 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>270g</p>
-          </div>
-          <div class="product-list__price">
-            <p>263 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item active-green">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cupcake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time">20 min</span>
-              <span class="product-list__time active">New</span>
-            </div>
-
-            <h3 class="product-list__title">
-              Makaron po ukraińsku z krewetkami i szynką
-            </h3>
-            <p class="product-list__descriptions">
-              domowy makaron w kremowym sosie winnym z krewetkami, szynką,
-              pomidorem i serem
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">900 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>370g</p>
-          </div>
-          <div class="product-list__price">
-            <p>123.50 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-        <li class="product-list__item">
-          <div class="product-list__img">
-            <img src="img/products/list-icons/cake.svg" alt="" />
-          </div>
-          <div class="product-list__content">
-            <div class="product-list__top">
-              <span class="product-list__time active">30 min</span>
-              <span class="product-list__time">900 cal</span>
-            </div>
-
-            <h3 class="product-list__title">Jagnięcina z warzywami w garnku</h3>
-            <p class="product-list__descriptions">
-              Jagnięcina duszona z pomidorami, papryką, cebulą, marchewką i
-              szparagami
-            </p>
-            <div class="product-list__icons">
-              <div class="product-list__symbol">A</div>
-              <div class="product-list__symbol">B</div>
-              <div class="product-list__icon chili"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__icon chili-black"></div>
-              <div class="product-list__calc">485 cal</div>
-            </div>
-          </div>
-          <div class="product-list__weight">
-            <p>450g</p>
-          </div>
-          <div class="product-list__price">
-            <p>51 zł</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="product-list" id="drink-second">
+      <ul class="product-list">
         <li class="product-list__item">
           <div class="product-list__img">
             <img src="img/products/list-icons/cake.svg" alt="" />
@@ -2385,6 +951,6 @@
     <script src="js/header.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/product-nav.js"></script>
-    <script src="js/tabs.js"></script>
+    <script src="js/anchors.js"></script>
   </body>
 </html>

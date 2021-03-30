@@ -11,6 +11,7 @@
 .swiper-button-prev {
   position: absolute;
   top: 0;
+  outline: none;
   width: 30px !important;
   height: 30px !important;
   margin-top: 0;

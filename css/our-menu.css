@@ -26,6 +26,7 @@
   margin-right: 10px;
 }
 .product-v2 {
+  display: block;
   width: 300px;
   height: 200px;
   border: 1px solid #000000;
