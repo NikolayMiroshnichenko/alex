@@ -74,6 +74,15 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.3s;
+}
+.product-list.active {
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
 }
 .product-list__item {
   width: 660px;
