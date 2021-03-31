@@ -32,10 +32,10 @@
   .main-info p {
     font-size: 16px;
   }
-  .product-v2,
+  /* .product-v2,
   .product-v1 {
     width: 280px;
-  }
+  } */
   .product-v2__title,
   .product-v1__title {
     font-size: 26px;
@@ -160,10 +160,6 @@
   }
   .main-content__top-text {
     padding-left: 0;
-  }
-  .product-v2,
-  .product-v1 {
-    width: 330px;
   }
   .footer-v1-info,
   .footer-v1-top {
