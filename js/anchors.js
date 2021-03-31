@@ -1,14 +1,6 @@
-const anchors = document.querySelectorAll(".anchors");
-
-for (let anchor of anchors) {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    const blockID = anchor.getAttribute("href").substr(1);
-
-    document.getElementById(blockID).scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+$(document).ready(function(){
+  $( "a.anchors" ).click(function( event ) {
+      event.preventDefault();
+      $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
   });
-}
+});
